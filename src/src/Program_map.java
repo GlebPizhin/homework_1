@@ -5,8 +5,6 @@ public class Program_map {
 
     public static void main(String[] args) {
 
-        //Реализация через конструктор Map
-
         Myhashmap <Integer,String> cit_line = new Myhashmap<Integer, String>();
 
         while (true) {
