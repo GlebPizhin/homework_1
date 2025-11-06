@@ -1,9 +1,10 @@
+
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
 
-public class Myhashmap<K,V> implements Map<K,V> {
+public class Myhashmap_3<K,V> implements Map<K,V> {
 
     private final Map<K, V> interMap = new HashMap<>();
 
@@ -78,3 +79,4 @@ public class Myhashmap<K,V> implements Map<K,V> {
     }
 
 }
+
